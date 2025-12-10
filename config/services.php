@@ -35,4 +35,8 @@ return [
         ],
     ],
 
+    'paypal' => [
+        'client_id' => env('PAYPAL_CLIENT_ID', 'sb'),
+        'secret' => env('PAYPAL_SECRET'),
+    ],
 ];
